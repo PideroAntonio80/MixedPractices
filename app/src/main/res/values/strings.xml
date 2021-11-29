@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="activity_main_bPhoto_text">Foto!</string>
+    <string name="activity_main_etDate_hint">Selecciona tu fecha</string>
+    <string name="activity_main_etTime_hint">Selecciona tu hora</string>
+    <string name="activity_main_etName_hint">Nombre</string>
+    <string name="activity_main_cbVip_text">¿Eres VIP?</string>
+    <string name="activity_main_bContinue_text">Continue</string>
+    <string name="activity_result_bCloseSession_text">Cerrar Sesión</string>
+</resources>

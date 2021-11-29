@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/activity_main_etDate_hint"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:clickable="false"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/activity_main_etTime_hint"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:clickable="false"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/activity_main_etName_hint"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="175dp"/>
+
+    <CheckBox
+        android:id="@+id/cbVip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="230dp"
+        android:text="@string/activity_main_cbVip_text"/>
+
+    <Button
+        android:id="@+id/bPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="305dp"
+        android:text="@string/activity_main_bPhoto_text"/>
+
+    <Button
+        android:id="@+id/bContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="480dp"
+        android:text="@string/activity_main_bContinue_text"/>
+
+</FrameLayout>
